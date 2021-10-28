@@ -1,0 +1,39 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Halo",
+                "Bagaimana kabarnya?",
+                "Selamat pagi"
+            ],
+            "responses": [
+                "Hai",
+                "Halo juga",
+                "Halo, saya sehat juga. Bagaimana kabarmu?",
+                "Pagi juga"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Selamat tinggal"
+            ],
+            "responses": [
+                "Selamat tinggal, ketemu lagi"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Terima kasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Sama-sama",
+                "Terima kasih kembali"
+            ]
+        }
+    ]
+}
